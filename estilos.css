@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegacion{
+	width: 100%;
+}
+
+.navegacion nav{
+	width: 100%;
+	max-width: 1100px;
+	background: #2D3447;
+	margin: 0px auto;
+}
+
+.navegacion nav ul{
+	list-style: none;
+	position: relative;
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;
+}
+
+.navegacion nav > ul > li > a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.navegacion nav > ul > li > a span{
+	font-size: 20px;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.navegacion nav > ul > li:hover span{
+	display: block;
+}
+
+.navegacion nav ul li .submenu{
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	display: none;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+	display: flex;
+}
+
+.navegacion nav ul li .submenu .submenu-items{
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+body{
+    background: url(imagenes/fondo.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+article{
+    color: azure;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+h1{
+    color: azure;
+    text-decoration-line: overline;
+    text-align: center;
+    font-family: times new roman;
+    font-size: 20vh;
+}
+.port{
+    width: 60%;
+    margin: auto;
+    display:block;
+}
+.trailer{
+    font-size: large;
+    color: ivory;
+    width: 100vh;
+    margin: auto;
+}
+.imagenes {
+    color: azure;
+    text-align: center;
+    font-size: 10vh;
+}
+.imagenes img{
+    width: 500px;
+    margin: 0;
+    display: inline-block;
+}
+.ficha h2{
+    color: cornsilk;
+    text-align: center;
+    font-size: 12vh;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    color: azure;
+    
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+   background-color: cadetblue;
+  }
+
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=enviar] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  input[type=enviar]:hover {
+    background-color: #45a049;
+  }
+  .trailer h2{
+      color: cornsilk;
+      text-align: center;
+      font-size: 12vh;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 0px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 10px) {
+    .col-25, .col-75, input[type=enviar] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  input[type=limpiar] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  input[type=limpiar]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 0px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+footer{
+    color: cornsilk;
+    text-align: center;
+}  
